@@ -15,6 +15,8 @@ a {
 
 body {
 	font-family: 'Lato', sans-serif;
+	width: 960px;
+	margin: 0 auto;
 }
 
 header {
@@ -53,7 +55,7 @@ header {
 }
 
 article {
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 article p {
@@ -63,4 +65,10 @@ article p {
 section {
 	display: flex;
 	justify-content: space-between;
+}
+
+footer {
+	width: 100%;
+	background-color: #ffa3a3;
+	color: white;
 }
