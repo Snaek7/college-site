@@ -52,6 +52,14 @@ header {
 	text-align: center;
 }
 
+article {
+	margin-bottom: 100px;
+}
+
+article p {
+	padding: 40px;
+}
+
 section {
 	display: flex;
 	justify-content: space-between;
