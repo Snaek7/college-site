@@ -48,7 +48,13 @@ header {
 }
 
 .search {
-	background-color: white;
+	padding: 4px;
+}
+
+input {
+	border: none;
+	padding: 4px;
+	height: 30px;
 }
 
 .menu-item {

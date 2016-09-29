@@ -1,4 +1,4 @@
-@media screen and (max-width: 428px){
+@media screen and (max-width: 550px){
 	section {
 		flex-direction: column;
 	}
@@ -14,10 +14,13 @@
 	input {
 		padding: 4px;
 		background-color: white;
+		width: 100%;
 	}
 
 	.search {
-		margin-top: 15px;
+		margin-top: 20px;
+		width: 100%;
+		
 	}
 	.menu-item {
 		padding: 4px;
@@ -31,3 +34,106 @@
 		margin: 0 auto;
 	}
 }
+
+@media screen and (min-width: 551px) and (max-width: 625px){
+	section {
+		flex-direction: column;
+	}
+
+	.bar {
+		flex-wrap: wrap;
+	}
+	.logo {
+		flex: initial;
+		width: 100%;
+	}
+
+	input {
+		padding: 4px;
+		background-color: white;
+		width: 100%;
+	}
+
+	.search {
+		margin-top: 20px;
+		width: 100%;
+		padding: 4px;
+	}
+	.menu-item {
+		padding: 4px;
+	}
+	.section-item {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.section-item:last-of-type {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 626px) and (max-width: 825px) {
+	section {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.bar {
+		flex-wrap: wrap;
+	}
+
+	input {
+		padding: 4px;
+		background-color: white;
+		width: 100%;
+	}
+
+	.search {
+		margin-top: 20px;
+		width: 100%;
+		padding: 4px;
+	}
+	.menu-item {
+		padding: 4px;
+	}
+	.section-item {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.section-item:last-of-type {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 826px) {
+	section {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.bar {
+		flex-wrap: wrap;
+	}
+
+	input {
+		padding: 4px;
+		background-color: white;
+	}
+
+	.search {
+		padding: 4px;
+	}
+	.menu-item {
+		padding: 4px;
+	}
+	.section-item {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.section-item:last-of-type {
+		margin: 0 auto;
+	}
+}
+
