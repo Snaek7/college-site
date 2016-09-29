@@ -109,7 +109,7 @@
 @media screen and (min-width: 826px) {
 	section {
 		flex-direction: row;
-		flex-wrap: wrap;
+
 	}
 
 	.bar {
@@ -129,7 +129,7 @@
 	}
 	.section-item {
 		display: block;
-		margin: 0 auto;
+		margin-right: 10px;
 	}
 
 	.section-item:last-of-type {
