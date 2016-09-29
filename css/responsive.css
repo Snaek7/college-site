@@ -11,10 +11,13 @@
 		width: 100%;
 	}
 
-	.search {
-		margin-top: 20px;
+	input {
 		padding: 4px;
+		background-color: white;
+	}
 
+	.search {
+		margin-top: 15px;
 	}
 	.menu-item {
 		padding: 4px;
