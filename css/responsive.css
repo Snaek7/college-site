@@ -1,3 +1,30 @@
-@media screen and (max-width: 550px){
+@media screen and (max-width: 428px){
+	section {
+		flex-direction: column;
+	}
 
+	.bar {
+		flex-wrap: wrap;
+	}
+	.logo {
+		flex: initial;
+		width: 100%;
+	}
+
+	.search {
+		margin-top: 20px;
+		padding: 4px;
+
+	}
+	.menu-item {
+		padding: 4px;
+	}
+	.section-item {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.section-item:last-of-type {
+		margin: 0 auto;
+	}
 }
