@@ -11,6 +11,11 @@ img	{
 a {
 	text-decoration: none;
 	color: white;
+	transitions: all 1s ease;
+}
+
+a:active {
+	color: rgba(87, 185, 41, 0.77);
 }
 
 body {
@@ -75,6 +80,10 @@ article p {
 
 article h2, section h2 {
 	color: rgba(226, 0, 0, 0.62);
+}
+
+article h2, section h2:active {
+	color: #ffa3a3;
 }
 
 section {
