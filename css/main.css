@@ -82,6 +82,10 @@ section {
 	justify-content: space-between;
 }
 
+.section-title {
+	color: #ffa3a3;
+}
+
 .section-item {
 	margin-right: 10px;
 }
