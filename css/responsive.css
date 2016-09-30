@@ -28,13 +28,14 @@
 
 	.section-title {
 		text-align: center;
-		margin-bottom: 2.5em;
+		margin-bottom: 2em;
 		font-size: 2.5em;
 	}
 
 	.section-item {
 		display: block;
 		margin: 0 auto;
+		margin-bottom: 4em;
 	}
 
 	.section-item:last-of-type {
@@ -83,6 +84,7 @@
 	.section-item {
 		display: block;
 		margin: 0 auto;
+		margin-bottom: 4em;
 	}
 
 	.section-item:last-of-type {
@@ -123,6 +125,7 @@
 	.section-item {
 		display: block;
 		margin: 0 auto;
+		margin-bottom: 4em;
 	}
 
 	.section-item:last-of-type {
