@@ -14,7 +14,7 @@ a {
 	transitions: all 1s ease;
 }
 
-a:active {
+a:focus {
 	color: rgba(87, 185, 41, 0.77);
 }
 
