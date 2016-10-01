@@ -106,6 +106,7 @@ article h2, .middle-section h2:active {
 .contact {
 	margin-top: 120px;
 	margin-bottom: 50px;
+	width: 100%;
 }
 
 form {
