@@ -108,6 +108,8 @@ article h2, .middle-section h2:active {
 	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
+	background-image: url('../img/background1.jpg');
+	background-position: 50% 50%;
 }
 
 form {
