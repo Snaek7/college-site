@@ -106,7 +106,8 @@ article h2, .middle-section h2:active {
 .contact {
 	margin-top: 120px;
 	margin-bottom: 50px;
-	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 form {
@@ -125,12 +126,12 @@ form {
 	border-bottom: 0.2px solid #f7dede;
 	width: 100%;
 	margin-bottom: 5px;
-	font-size: 2.2em;
+	font-size: 2em;
 }
 
 .form-textarea {
 	border-color: #f7dede;
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 footer {
