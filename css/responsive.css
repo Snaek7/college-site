@@ -1,5 +1,5 @@
 @media screen and (max-width: 550px){
-	section {
+	.middle-section {
 		flex-direction: column;
 	}
 
@@ -11,7 +11,7 @@
 		width: 100%;
 	}
 
-	input {
+	.header-input {
 		padding: 4px;
 		background-color: white;
 		width: 100%;
@@ -42,14 +42,14 @@
 		margin: 0 auto;
 	}
 
-	section img {
+	.middle-section img {
 		display: block;
 		margin: 0 auto;
 	}
 }
 
 @media screen and (min-width: 551px) and (max-width: 625px){
-	section {
+	.middle-section {
 		flex-direction: column;
 	}
 
@@ -61,7 +61,7 @@
 		width: 100%;
 	}
 
-	input {
+	.header-input {
 		padding: 4px;
 		background-color: white;
 		width: 100%;
@@ -94,7 +94,7 @@
 }
 
 @media screen and (min-width: 626px) and (max-width: 825px) {
-	section {
+	.middle-section {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
@@ -103,7 +103,7 @@
 		flex-wrap: wrap;
 	}
 
-	input {
+	.header-input {
 		padding: 4px;
 		background-color: white;
 		width: 100%;
@@ -136,7 +136,7 @@
 }
 
 @media screen and (min-width: 826px) {
-	section {
+	.middle-section {
 		flex-direction: row;
 
 	}
@@ -145,7 +145,7 @@
 		flex-wrap: wrap;
 	}
 
-	input {
+	.header-input {
 		padding: 4px;
 		background-color: white;
 	}
