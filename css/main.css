@@ -110,6 +110,7 @@ article h2, .middle-section h2:active {
 	flex-direction: column;
 	background-image: url('../img/background1.jpg');
 	background-position: 50% 50%;
+	background-repeat: 
 }
 
 form {
@@ -134,6 +135,7 @@ form {
 .form-textarea {
 	border-color: #f7dede;
 	font-size: 0.8em;
+	width: 100%;
 }
 
 footer {
