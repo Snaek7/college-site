@@ -105,12 +105,11 @@ article h2, .middle-section h2:active {
 
 .contact {
 	margin-top: 120px;
-	margin-bottom: 50px;
+	margin-bottom: 150px;
 	display: flex;
 	flex-direction: column;
 	background-image: url('../img/background1.jpg');
-	background-position: 50% 50%;
-	background-repeat: 
+	background-position: 50% 50%; 
 }
 
 form {
